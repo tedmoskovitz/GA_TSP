@@ -37,7 +37,6 @@ class GA:
             p_cross: the crossover probability
             p_mut: the mutation probability 
         '''
-        # each row is a chromosome # possibly change population to a set? then need a chromosome/path class with prop calc length, shuffle, fitness
         population = []
         # initialize each chromosome as a random permutation of the points (by index)
         for _ in range(population_size):
